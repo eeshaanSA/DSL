@@ -1,0 +1,23 @@
+Sure! Let's talk about OBST, which stands for Optimal Binary Search Tree. 
+
+Imagine you have a lot of words in a dictionary, and you want to find the meaning of a word quickly. A binary search tree is a way to organize these words in a specific order to make searching faster. 
+
+In a binary search tree, each word is stored in a node, and these nodes are arranged in a tree-like structure. The special thing about an OBST is that it is designed in the best possible way to make searching as fast as possible.
+
+Here's how an OBST works:
+
+1. First, let's take all the words and sort them in alphabetical order. This will help us organize them efficiently.
+
+2. Then, we find a word from the middle of the sorted list and make it the root of our OBST. This middle word is called the "root word."
+
+3. Now, we divide the remaining words into two groups: those that come before the root word and those that come after it. These two groups become the left and right subtrees of the root word, respectively.
+
+4. We repeat the same process for each subtree. We find the middle word of the words in that subtree and make it the root of that subtree. Then, we divide the remaining words into left and right subtrees based on their position compared to the new root word.
+
+5. We keep repeating these steps for each subtree until we have created the entire OBST.
+
+The great thing about an OBST is that it is designed in a way that minimizes the average number of comparisons needed to find a word. This means that when you want to look up a word, you can find it more quickly because the tree is organized optimally.
+
+So, an OBST is like a special type of tree that helps you find things faster. It's like having a well-organized dictionary that makes searching for words easier and quicker!
+
+I hope that helps you understand what an OBST is! Let me know if you have any more questions.

@@ -1,0 +1,21 @@
+Prim's algorithm is a popular algorithm used to find the minimum spanning tree (MST) of a connected weighted graph. The MST is a subset of the graph's edges that connects all the vertices with the minimum total weight.
+
+Here's how Prim's algorithm works:
+
+1. Start with an arbitrary vertex from the graph. This vertex will be the starting point of the MST.
+
+2. Select the edge with the minimum weight that connects the chosen vertex to an unvisited vertex. Add this edge to the MST.
+
+3. Mark the newly visited vertex as visited.
+
+4. Repeat steps 2 and 3 until all vertices are visited. At each step, choose the minimum weight edge that connects a visited vertex to an unvisited vertex.
+
+5. Once all vertices are visited, you have constructed the minimum spanning tree.
+
+The algorithm grows the MST incrementally, always selecting the edge with the minimum weight to expand the tree. By continuously adding edges, Prim's algorithm ensures that the tree remains connected and has the minimum possible total weight.
+
+In simpler terms, think of a graph as a network of connected points. Prim's algorithm helps find the smallest set of connections (edges) that connect all the points (vertices) while minimizing the total distance or weight of those connections. It builds the minimum spanning tree step by step, choosing the shortest edges that link visited and unvisited vertices.
+
+Prim's algorithm is commonly used in various applications such as network design, clustering, and optimization problems where finding the minimum spanning tree is crucial.
+
+I hope this explanation clarifies Prim's algorithm for you! If you have any more questions, feel free to ask.

@@ -1,0 +1,15 @@
+Sequential files are a type of data storage method where records are stored one after another in a specific order. In a sequential file, each record is stored in a sequence, and accessing a specific record requires reading through all the preceding records.
+
+Here are a few key points about sequential files:
+
+1. Order of Records: In a sequential file, the records are stored in a specific order, typically based on the order of their creation or some predetermined key value. This order remains unchanged unless the file is modified.
+
+2. Read and Write Operations: Sequential files are primarily designed for sequential access. Reading or writing data usually involves starting from the beginning of the file and progressing through the records until reaching the desired record.
+
+3. Storage Efficiency: Sequential files are relatively simple in terms of storage management. Records are appended to the file one by one, resulting in efficient use of storage space. However, modifying or deleting records in the middle of the file can be complex and may require rewriting the entire file.
+
+4. Use Cases: Sequential files are commonly used in scenarios where data is processed in a linear fashion, such as transaction logs, logs of events, or streaming data. They are less suitable for random access or frequent updates to specific records.
+
+It's important to note that with the advancement of database systems and indexed file structures, sequential files are less commonly used for general-purpose data storage compared to structured databases or other file organization methods. However, they still find applications in specific contexts where sequential access is sufficient and simplicity is prioritized.
+
+In summary, sequential files store records in a specific order, and accessing data involves reading through the records one after another. They are efficient for sequential access but may not be suitable for random access or frequent modifications.
